@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+form.example button1 {
+  float: left;
+  width: 30%;
+  padding: 8px;
+  background: #f8f6f6;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  border-left: none;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+form.example button2 {
+  float: right;
+  width: 30%;
+  padding: 8px;
+  background: #f8f6f6;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  border-left: none;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 90px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 19%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.center {
+    position: relative;
+    padding-top: 100px;
+}
+
+#footer {
+  padding: 5px 5px;
+  position:absolute;
+  bottom:0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #e6e1e1;
+}
+
+footer a {
+  color: rgb(119, 115, 115);
+  font-size: 14px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+</style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#about">About</a></li>
+        <li><a href="#store">Store</a></li>
+         <li style=float:right;><a href="#images">Images</a></li>
+        <li style=float:right;><a href="#gmail">Gmail</a></li>
+      </ul>
+
+    <img class="center" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+
+    <form class="example" action="/action_page.php" style="margin:auto;max-width:500px">
+        <input type="text" placeholder="Search..." name="search2">
+        <button1 type="submit">Google Search</button1>
+        <button2 type="submit">I'm Feeling Lucky</button2>
+      </form>
+
+  <div id="footer">
+    <footer>
+      <ul>
+        <li><a class="active" href="#advertising">Advertising</a></li>
+        <li><a class="active" href="#business">Business</a></li>
+        <li><a class="active" href="#howsearchworks">How Search Works</a></li>
+        <li style=float:right;><a class="active" href="#settings">Settings</a></li>
+        <li style=float:right;><a class="active" href="#terms">Terms</a></li>
+        <li style=float:right;><a class="active" href="#privacy">Privacy</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html> 
